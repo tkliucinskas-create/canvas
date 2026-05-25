@@ -1,36 +1,1119 @@
 {
   "nodes": [
     {
-      "id": "cat-setup",
+      "id": "chat-c342bdfb-1fc5-4efc-9de0-1c498da79c06",
+      "type": "cursorChat",
+      "position": {
+        "x": 24,
+        "y": 24
+      },
+      "data": {
+        "label": "Edited export-vercel.js, run-cursor.js, run-notes.js, extract-apple-notes.js, db-write.js",
+        "workspace": "/Users/tadaskliucinskas/Documents/Ruta monitoringas"
+      }
+    },
+    {
+      "id": "chat-1831d02f-357f-436f-87ec-ec32c1e92f53",
+      "type": "cursorChat",
+      "position": {
+        "x": 24,
+        "y": 120
+      },
+      "data": {
+        "label": "Edited _altos_delete_public_html_old_once.php",
+        "workspace": "/Users/tadaskliucinskas/Documents/Ruta monitoringas"
+      }
+    },
+    {
+      "id": "chat-b489a5f7-984b-4ba7-b47b-19b3492001c6",
+      "type": "cursorChat",
+      "position": {
+        "x": 24,
+        "y": 216
+      },
+      "data": {
+        "label": "Edited grabeka_june_quote_to_sheet.py, grabeka_sheet_vilnius_calibrate.py, grabeka_june_plan_to_sheet.py",
+        "workspace": "/Users/tadaskliucinskas/Documents/Ruta monitoringas"
+      }
+    },
+    {
+      "id": "chat-13fecd02-77b4-42b3-862b-8053ca45fdb8",
+      "type": "cursorChat",
+      "position": {
+        "x": 24,
+        "y": 312
+      },
+      "data": {
+        "label": "Edited ruta_monitoring_brandai_tab_update.py",
+        "workspace": "/Users/tadaskliucinskas/Documents/Ruta monitoringas"
+      }
+    },
+    {
+      "id": "chat-c3d3f2b6-ba01-47f2-bd57-817ec232df31",
+      "type": "cursorChat",
+      "position": {
+        "x": 24,
+        "y": 408
+      },
+      "data": {
+        "label": "Pilno vizualų patch ir lapo sinchronizavimo užduotis baigta …",
+        "workspace": "/Users/tadaskliucinskas/Documents/Ruta monitoringas"
+      }
+    },
+    {
+      "id": "chat-54ed7e3a-10c8-4cc7-803c-f094c93a3a2a",
+      "type": "cursorChat",
+      "position": {
+        "x": 24,
+        "y": 504
+      },
+      "data": {
+        "label": "Read patch_progress.log",
+        "workspace": "/Users/tadaskliucinskas/Documents/Ruta monitoringas"
+      }
+    },
+    {
+      "id": "cat-backend",
       "type": "group",
-      "position": { "x": 360, "y": 24 },
-      "data": { "label": "Setup" },
+      "position": {
+        "x": 320,
+        "y": 0
+      },
+      "data": {
+        "label": "Backend"
+      },
       "style": {
         "width": 340,
-        "height": 200,
+        "height": 1392,
+        "background": "#0ea5e914",
+        "border": "1px solid #0ea5e955",
+        "borderRadius": 12
+      }
+    },
+    {
+      "id": "task-add-data-period-row-above-keyword-pl-0",
+      "type": "cursorTask",
+      "parentId": "cat-backend",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 48
+      },
+      "data": {
+        "label": "Add data period row above Keyword Planner metrics in first tab",
+        "category": "Backend",
+        "status": "pending",
+        "evidence": "In the 'Kategorijoje paieškos pagal kiekį' tab, add a row at the top specifying the data period (2025-26) and source (Keyword Planner LT).",
+        "sourceChatId": "c3d3f2b6-ba01-47f2-bd57-817ec232df31"
+      }
+    },
+    {
+      "id": "task-check-and-fix-form-submission-issues-1",
+      "type": "cursorTask",
+      "parentId": "cat-backend",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 132
+      },
+      "data": {
+        "label": "Check and fix form submission issues",
+        "category": "Backend",
+        "status": "done",
+        "evidence": "CF7 status issue corrected. Form now submits successfully with correct language-specific messages.",
+        "sourceChatId": "1831d02f-357f-436f-87ec-ec32c1e92f53"
+      }
+    },
+    {
+      "id": "task-clean-up-kampanijos-tab-and-add-comp-2",
+      "type": "cursorTask",
+      "parentId": "cat-backend",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 216
+      },
+      "data": {
+        "label": "Clean up 'kampanijos' tab and add competitor visual from Meta Ads Library API",
+        "category": "Backend",
+        "status": "pending",
+        "evidence": "In the 'kampanijos' tab, save current competitors to a list, clean up the sheet, and pull one sample ad image from the Meta Ads Library API.",
+        "sourceChatId": "c3d3f2b6-ba01-47f2-bd57-817ec232df31"
+      }
+    },
+    {
+      "id": "task-confirm-current-state-count-vizualas-3",
+      "type": "cursorTask",
+      "parentId": "cat-backend",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 300
+      },
+      "data": {
+        "label": "Confirm current state: count Vizualas cells with =IMAGE vs placeholder in sheet",
+        "category": "Backend",
+        "status": "done",
+        "evidence": "The sheet has zero `=IMAGE` formulas despite 223 cached images — I'll add a cache-to-sheet sync and fix the layout, then run the batch patch.",
+        "sourceChatId": "54ed7e3a-10c8-4cc7-803c-f094c93a3a2a"
+      }
+    },
+    {
+      "id": "task-create-node-js-script-to-extract-cha-4",
+      "type": "cursorTask",
+      "parentId": "cat-backend",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 384
+      },
+      "data": {
+        "label": "Create Node.js script to extract chat histories from Cursor SQLite database",
+        "category": "Backend",
+        "status": "pending",
+        "evidence": "Skriptas:\n- Randa **Cursor** DB: `state.vscdb` (macOS / Windows / Linux)\n- Skaito pokalbius iš `cursorDiskKV` (`bubbleId:…`, `composerData:…`)",
+        "sourceChatId": "c342bdfb-1fc5-4efc-9de0-1c498da79c06"
+      }
+    },
+    {
+      "id": "task-create-scripts-ruta-monitoring-brand-5",
+      "type": "cursorTask",
+      "parentId": "cat-backend",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 468
+      },
+      "data": {
+        "label": "Create scripts/ruta_monitoring_brandai_tab_update.py",
+        "category": "Backend",
+        "status": "done",
+        "evidence": "[assistant] Building the Brandai update script from the established tab logic and sheet layout.\n[assistant] ## Santrauka\n\nAtnaujintas **„Brandai“** skirtukas pagal tą pačią logiką kaip kiti monitoringo skirtukai.\n\n### Naujas skriptas\n`scripts/ruta_monitoring_brandai_tab_update.py`",
+        "sourceChatId": "13fecd02-77b4-42b3-862b-8053ca45fdb8"
+      }
+    },
+    {
+      "id": "task-fix-language-specific-form-message-i-6",
+      "type": "cursorTask",
+      "parentId": "cat-backend",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 552
+      },
+      "data": {
+        "label": "Fix language-specific form message issues",
+        "category": "Backend",
+        "status": "done",
+        "evidence": "Corrected form submission messages to match selected language settings, added JS fallbacks.",
+        "sourceChatId": "1831d02f-357f-436f-87ec-ec32c1e92f53"
+      }
+    },
+    {
+      "id": "task-generate-summary-graphs-alongside-ke-7",
+      "type": "cursorTask",
+      "parentId": "cat-backend",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 636
+      },
+      "data": {
+        "label": "Generate summary graphs alongside keyword metrics in first tab",
+        "category": "Backend",
+        "status": "pending",
+        "evidence": "Generate summary trend-line charts and 3 Lithuanian language notes per block alongside keyword statistics table.",
+        "sourceChatId": "c3d3f2b6-ba01-47f2-bd57-817ec232df31"
+      }
+    },
+    {
+      "id": "task-implement-api-calls-to-process-chat--8",
+      "type": "cursorTask",
+      "parentId": "cat-backend",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 720
+      },
+      "data": {
+        "label": "Implement API calls to process chat transcripts with LLM",
+        "category": "Backend",
+        "status": "pending",
+        "evidence": "Su pauze kviečia **OpenAI** arba **Anthropic** ir ištraukia užduotis",
+        "sourceChatId": "c342bdfb-1fc5-4efc-9de0-1c498da79c06"
+      }
+    },
+    {
+      "id": "task-map-each-brand-domain-to-relevant-ke-9",
+      "type": "cursorTask",
+      "parentId": "cat-backend",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 804
+      },
+      "data": {
+        "label": "Map each brand domain to relevant keywords",
+        "category": "Backend",
+        "status": "done",
+        "evidence": "[assistant] Building the Brandai update script from the established tab logic and sheet layout.\n[assistant] Fixing keyword parsing so it stops at the next brand section and clears leftover rows.",
+        "sourceChatId": "13fecd02-77b4-42b3-862b-8053ca45fdb8"
+      }
+    },
+    {
+      "id": "task-read-brandai-tab-on-copy-sheet-and-o-10",
+      "type": "cursorTask",
+      "parentId": "cat-backend",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 888
+      },
+      "data": {
+        "label": "Read Brandai tab on copy sheet and original",
+        "category": "Backend",
+        "status": "done",
+        "evidence": "[assistant] I'll align the Brandai tab with the other tabs by first reviewing how those tabs are built and what the Brandai sheet currently contains.\n[assistant] Next I'll pull the Brandai tab layout from both sheets and review how the competitors fetch script reads it.",
+        "sourceChatId": "13fecd02-77b4-42b3-862b-8053ca45fdb8"
+      }
+    },
+    {
+      "id": "task-run-batch-patch-for-all-brands-missi-11",
+      "type": "cursorTask",
+      "parentId": "cat-backend",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 972
+      },
+      "data": {
+        "label": "Run batch patch for ALL brands missing images: python3 scripts/ruta_kampanijos_competitors_fetch.py --patch-images --sheet",
+        "category": "Backend",
+        "status": "pending",
+        "evidence": "Sync ran without `--patch-images`, so it started a full fetch instead. Stopping that and rerunning with the correct flags.",
+        "sourceChatId": "54ed7e3a-10c8-4cc7-803c-f094c93a3a2a"
+      }
+    },
+    {
+      "id": "task-update-meta-data-integration-12",
+      "type": "cursorTask",
+      "parentId": "cat-backend",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 1056
+      },
+      "data": {
+        "label": "Update Meta Data Integration",
+        "category": "Backend",
+        "status": "done",
+        "evidence": "pridėsiu ir `Meta Ads API` sluoksnį į 3-ią schemą: ištrauksiu aktyvias kampanijas/adsetus su spend/rezultatais",
+        "sourceChatId": "b489a5f7-984b-4ba7-b47b-19b3492001c6"
+      }
+    },
+    {
+      "id": "task-update-keyword-metrics-in-brandai-se-13",
+      "type": "cursorTask",
+      "parentId": "cat-backend",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 1140
+      },
+      "data": {
+        "label": "Update keyword metrics in Brandai sections",
+        "category": "Backend",
+        "status": "done",
+        "evidence": "[assistant] Batching chart writes to reduce API calls, then retrying after the rate limit.\n[assistant] Fixing incorrect domain mapping in merged JSON search terms.",
+        "sourceChatId": "13fecd02-77b4-42b3-862b-8053ca45fdb8"
+      }
+    },
+    {
+      "id": "task-update-sheet-id-ruta-monitoring-txt--14",
+      "type": "cursorTask",
+      "parentId": "cat-backend",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 1224
+      },
+      "data": {
+        "label": "Update sheet_id_ruta_monitoring.txt with correct ID",
+        "category": "Backend",
+        "status": "pending",
+        "evidence": "sheet_id_ruta_monitoring.txt should contain the new copied Google Sheet's ID `19oGP-PqlZ1b4S_P4B5WjY4WlzQFIR-HCCrSaWTgaEOE`",
+        "sourceChatId": "c3d3f2b6-ba01-47f2-bd57-817ec232df31"
+      }
+    },
+    {
+      "id": "task-update-regenerate-lithuanian-insight-15",
+      "type": "cursorTask",
+      "parentId": "cat-backend",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 1308
+      },
+      "data": {
+        "label": "Update/regenerate Lithuanian insight bullets from data",
+        "category": "Backend",
+        "status": "done",
+        "evidence": "[assistant] Tight sections had insight rows overlapping the keyword table — fixing placement and clearing stale editorial text.\n[assistant] Fixing chart spec row indexing — hidden data blocks start below row 250, not at row 0.",
+        "sourceChatId": "13fecd02-77b4-42b3-862b-8053ca45fdb8"
+      }
+    },
+    {
+      "id": "cat-data",
+      "type": "group",
+      "position": {
+        "x": 320,
+        "y": 1440
+      },
+      "data": {
+        "label": "Data"
+      },
+      "style": {
+        "width": 340,
+        "height": 468,
+        "background": "#14b8a614",
+        "border": "1px solid #14b8a655",
+        "borderRadius": 12
+      }
+    },
+    {
+      "id": "task-document-authentication-and-deployme-0",
+      "type": "cursorTask",
+      "parentId": "cat-data",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 48
+      },
+      "data": {
+        "label": "Document authentication and deployment processes",
+        "category": "Data",
+        "status": "pending",
+        "evidence": "dokumentacija `docs/AUTH_AND_DEPLOY.md`",
+        "sourceChatId": "c342bdfb-1fc5-4efc-9de0-1c498da79c06"
+      }
+    },
+    {
+      "id": "task-improve-product-description-for-sale-1",
+      "type": "cursorTask",
+      "parentId": "cat-data",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 132
+      },
+      "data": {
+        "label": "Improve product description for sale item",
+        "category": "Data",
+        "status": "done",
+        "evidence": "Added full template board description to the sale item product 6967.",
+        "sourceChatId": "1831d02f-357f-436f-87ec-ec32c1e92f53"
+      }
+    },
+    {
+      "id": "task-investigate-duplicate-product-issues-2",
+      "type": "cursorTask",
+      "parentId": "cat-data",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 216
+      },
+      "data": {
+        "label": "Investigate duplicate product issues",
+        "category": "Data",
+        "status": "pending",
+        "evidence": "Need to review Gabbro trinkelis (8*8*10, 10*10*10 cm) for missing categories and incorrect nuotraukos positions in uploads-2.",
+        "sourceChatId": "1831d02f-357f-436f-87ec-ec32c1e92f53"
+      }
+    },
+    {
+      "id": "task-return-lithuanian-summary-3",
+      "type": "cursorTask",
+      "parentId": "cat-data",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 300
+      },
+      "data": {
+        "label": "Return Lithuanian summary",
+        "category": "Data",
+        "status": "done",
+        "evidence": "[assistant] ## Santrauka\n\nAtnaujintas **„Brandai“** skirtukas pagal tą pačią logiką kaip kiti monitoringo skirtukai.\n\n### Atnaujinta: **16 brandų**\nPERGALĖ, Taitau.lt, chocogroup.eu, alisokoladine.lt, mulate.eu, sokoladomeistrai.lt, roshen, mondelez, mr.check, candy pop, achchocoloate.com, birzusokoladas.lt, laroche.lt, komplimentai.com, laima.lv, kalev.eu",
+        "sourceChatId": "13fecd02-77b4-42b3-862b-8053ca45fdb8"
+      }
+    },
+    {
+      "id": "task-sheet-url-and-refresh-command-4",
+      "type": "cursorTask",
+      "parentId": "cat-data",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 384
+      },
+      "data": {
+        "label": "Sheet URL and refresh command",
+        "category": "Data",
+        "status": "done",
+        "evidence": "[assistant] ## Santrauka\n\nAtnaujintas **„Brandai“** skirtukas pagal tą pačią logiką kaip kiti monitoringo skirtukai.\n\n### Lapas\nhttps://docs.google.com/spreadsheets/d/19oGP-PqlZ1b4S_P4B5WjY4WlzQFIR-HCCrSaWTgaEOE/edit\n\n### Atnaujinimo komanda\n```bash\nexport GOOGLE_SPREADSHEET_ID=$(cat sheet_id_ruta_monitoring.txt)\npython3 scripts/ruta_monitoring_brandai_tab_update.py\n```\nPapildomai:\n- `--dry-run` — peržiūra be rašymo\n- `--no-charts` — tik metrikos ir įžvalgos, be grafikų",
+        "sourceChatId": "13fecd02-77b4-42b3-862b-8053ca45fdb8"
+      }
+    },
+    {
+      "id": "cat-devops",
+      "type": "group",
+      "position": {
+        "x": 320,
+        "y": 1956
+      },
+      "data": {
+        "label": "DevOps"
+      },
+      "style": {
+        "width": 340,
+        "height": 468,
+        "background": "#f9731614",
+        "border": "1px solid #f9731655",
+        "borderRadius": 12
+      }
+    },
+    {
+      "id": "task-configure-vercel-for-deployment-of-p-0",
+      "type": "cursorTask",
+      "parentId": "cat-devops",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 48
+      },
+      "data": {
+        "label": "Configure Vercel for deployment of personalized canvas",
+        "category": "DevOps",
+        "status": "pending",
+        "evidence": "Atskiras Vercel projektas arba `lrk-flow-cursor` + admin auth",
+        "sourceChatId": "c342bdfb-1fc5-4efc-9de0-1c498da79c06"
+      }
+    },
+    {
+      "id": "task-create-deployment-protection-for-int-1",
+      "type": "cursorTask",
+      "parentId": "cat-devops",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 132
+      },
+      "data": {
+        "label": "Create deployment protection for internal and client-specific environments",
+        "category": "DevOps",
+        "status": "pending",
+        "evidence": "Vercel Pro: **Password Protection** arba **SSO** per projektą / environment",
+        "sourceChatId": "c342bdfb-1fc5-4efc-9de0-1c498da79c06"
+      }
+    },
+    {
+      "id": "task-resolve-cache-issues-on-product-page-2",
+      "type": "cursorTask",
+      "parentId": "cat-devops",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 216
+      },
+      "data": {
+        "label": "Resolve cache issues on product page",
+        "category": "DevOps",
+        "status": "done",
+        "evidence": "OPcache and page cache cleared. Duplicate footer text from GTranslate cache removed.",
+        "sourceChatId": "1831d02f-357f-436f-87ec-ec32c1e92f53"
+      }
+    },
+    {
+      "id": "task-set-up-basic-auth-middleware-in-verc-3",
+      "type": "cursorTask",
+      "parentId": "cat-devops",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 300
+      },
+      "data": {
+        "label": "Set up Basic Auth middleware in Vercel to restrict access by hostname",
+        "category": "DevOps",
+        "status": "pending",
+        "evidence": "middleware.js — Basic Auth pagal host + env kintamuosius Vercel.",
+        "sourceChatId": "c342bdfb-1fc5-4efc-9de0-1c498da79c06"
+      }
+    },
+    {
+      "id": "task-update-oauth-token-for-data-keycommu-4",
+      "type": "cursorTask",
+      "parentId": "cat-devops",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 384
+      },
+      "data": {
+        "label": "Update OAuth token for data@keycommunication.lt",
+        "category": "DevOps",
+        "status": "done",
+        "evidence": "OAuth token was refreshed using `scripts/google_sheets_oauth_refresh.py` which is now valid for full Drive scope.",
+        "sourceChatId": "c3d3f2b6-ba01-47f2-bd57-817ec232df31"
+      }
+    },
+    {
+      "id": "cat-setup",
+      "type": "group",
+      "position": {
+        "x": 320,
+        "y": 2472
+      },
+      "data": {
+        "label": "Setup"
+      },
+      "style": {
+        "width": 340,
+        "height": 132,
         "background": "#64748b14",
         "border": "1px solid #64748b55",
         "borderRadius": 12
       }
     },
     {
-      "id": "task-welcome",
+      "id": "task-restructure-public-links-to-differen-0",
       "type": "cursorTask",
       "parentId": "cat-setup",
       "extent": "parent",
-      "position": { "x": 16, "y": 56 },
+      "position": {
+        "x": 16,
+        "y": 48
+      },
       "data": {
-        "label": "Sugeneruok duomenis: npm run all",
+        "label": "Restructure PUBLIC_LINKS to differentiate visibility between admin and client",
         "category": "Setup",
         "status": "pending",
-        "evidence": "Žr. SETUP.md — flow-report-prototype/scripts/cursor-chat-to-flow",
-        "sourceChatId": "welcome"
+        "evidence": "PUBLIC_LINKS padalinti į `visibility: 'admin' | 'client'`",
+        "sourceChatId": "c342bdfb-1fc5-4efc-9de0-1c498da79c06"
+      }
+    },
+    {
+      "id": "cat-ui",
+      "type": "group",
+      "position": {
+        "x": 320,
+        "y": 2652
+      },
+      "data": {
+        "label": "UI"
+      },
+      "style": {
+        "width": 340,
+        "height": 720,
+        "background": "#6366f114",
+        "border": "1px solid #6366f155",
+        "borderRadius": 12
+      }
+    },
+    {
+      "id": "task-add-channel-breakdown-visuals-to-lan-0",
+      "type": "cursorTask",
+      "parentId": "cat-ui",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 48
+      },
+      "data": {
+        "label": "Add Channel Breakdown Visuals to Landing Cards",
+        "category": "UI",
+        "status": "done",
+        "evidence": "nieko rimto visi landingai react'as - ar gali ant korteliu uzdeti vizualius grafikus tai statistikai kuri yra, ar gali kiekvienam landingui parodyti kaip performino atskiri srauto kanalai",
+        "sourceChatId": "b489a5f7-984b-4ba7-b47b-19b3492001c6"
+      }
+    },
+    {
+      "id": "task-adjust-element-spacing-in-4th-canvas-1",
+      "type": "cursorTask",
+      "parentId": "cat-ui",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 132
+      },
+      "data": {
+        "label": "Adjust Element Spacing in 4th Canvas",
+        "category": "UI",
+        "status": "pending",
+        "evidence": "ar gali dar tarp elementu padaryti daugiau erdves kad jie neliptu vienas ant kito",
+        "sourceChatId": "b489a5f7-984b-4ba7-b47b-19b3492001c6"
+      }
+    },
+    {
+      "id": "task-develop-personalized-react-flow-canv-2",
+      "type": "cursorTask",
+      "parentId": "cat-ui",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 216
+      },
+      "data": {
+        "label": "Develop personalized React Flow canvas for iPad viewing",
+        "category": "UI",
+        "status": "pending",
+        "evidence": "- Naujas canvas: **Cursor užduotys**\n- Lokalus peržiūrai: `http://localhost:5173/?canvas=cursor`\n- Touch: tempimas, pinch zoom, didesni mygtukai, išdėstymas į **localStorage**, eksportas JSON",
+        "sourceChatId": "c342bdfb-1fc5-4efc-9de0-1c498da79c06"
+      }
+    },
+    {
+      "id": "task-ensure-column-a-domain-list-for-navi-3",
+      "type": "cursorTask",
+      "parentId": "cat-ui",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 300
+      },
+      "data": {
+        "label": "Ensure column A domain list for navigation",
+        "category": "UI",
+        "status": "done",
+        "evidence": "[assistant] ## Santrauka\n\nAtnaujintas **„Brandai“** skirtukas pagal tą pačią logiką kaip kiti monitoringo skirtukai.\n\n### Struktūra kiekvienai sekcijai\n- **Stulpelis B** — navigacijos domenai (neliestas)",
+        "sourceChatId": "13fecd02-77b4-42b3-862b-8053ca45fdb8"
+      }
+    },
+    {
+      "id": "task-fix-layout-if-tekstas-content-appear-4",
+      "type": "cursorTask",
+      "parentId": "cat-ui",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 384
+      },
+      "data": {
+        "label": "Fix layout if Tekstas content appears under Vizualas label — ensure rows don't merge wrong",
+        "category": "UI",
+        "status": "done",
+        "evidence": "Layout fix: Vizualas row: fixed 220px height + `CLIP`; Tekstas: `WRAP` B:M (text is not „long“ after Vizualas)",
+        "sourceChatId": "54ed7e3a-10c8-4cc7-803c-f094c93a3a2a"
+      }
+    },
+    {
+      "id": "task-generate-react-flow-json-formatted-n-5",
+      "type": "cursorTask",
+      "parentId": "cat-ui",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 468
+      },
+      "data": {
+        "label": "Generate React Flow JSON formatted nodes from extracted tasks",
+        "category": "UI",
+        "status": "pending",
+        "evidence": "Generuoja `public/cursor-task-map/react-flow-nodes.json`",
+        "sourceChatId": "c342bdfb-1fc5-4efc-9de0-1c498da79c06"
+      }
+    },
+    {
+      "id": "task-implement-pdf-mindmap-visualization-6",
+      "type": "cursorTask",
+      "parentId": "cat-ui",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 552
+      },
+      "data": {
+        "label": "Implement PDF Mindmap Visualization",
+        "category": "UI",
+        "status": "pending",
+        "evidence": "Padaryk pagal mano ta pdf faila - dabar tuscia bet su tais mind map elementais ketvirta react varianta",
+        "sourceChatId": "b489a5f7-984b-4ba7-b47b-19b3492001c6"
+      }
+    },
+    {
+      "id": "task-update-drawing-images-for-products-7",
+      "type": "cursorTask",
+      "parentId": "cat-ui",
+      "extent": "parent",
+      "position": {
+        "x": 16,
+        "y": 636
+      },
+      "data": {
+        "label": "Update drawing images for products",
+        "category": "UI",
+        "status": "done",
+        "evidence": "Replaced incorrect drawing image with correct version and updated gallery. Cleared cache.",
+        "sourceChatId": "1831d02f-357f-436f-87ec-ec32c1e92f53"
       }
     }
   ],
-  "edges": [],
+  "edges": [
+    {
+      "id": "e-c3d3f2b6-ba01-47f2-bd57-817ec232df31-task-add-data-period-row-above-keyword-pl-0",
+      "source": "chat-c3d3f2b6-ba01-47f2-bd57-817ec232df31",
+      "target": "task-add-data-period-row-above-keyword-pl-0",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#0ea5e9"
+      }
+    },
+    {
+      "id": "e-1831d02f-357f-436f-87ec-ec32c1e92f53-task-check-and-fix-form-submission-issues-1",
+      "source": "chat-1831d02f-357f-436f-87ec-ec32c1e92f53",
+      "target": "task-check-and-fix-form-submission-issues-1",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#0ea5e9"
+      }
+    },
+    {
+      "id": "e-c3d3f2b6-ba01-47f2-bd57-817ec232df31-task-clean-up-kampanijos-tab-and-add-comp-2",
+      "source": "chat-c3d3f2b6-ba01-47f2-bd57-817ec232df31",
+      "target": "task-clean-up-kampanijos-tab-and-add-comp-2",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#0ea5e9"
+      }
+    },
+    {
+      "id": "e-54ed7e3a-10c8-4cc7-803c-f094c93a3a2a-task-confirm-current-state-count-vizualas-3",
+      "source": "chat-54ed7e3a-10c8-4cc7-803c-f094c93a3a2a",
+      "target": "task-confirm-current-state-count-vizualas-3",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#0ea5e9"
+      }
+    },
+    {
+      "id": "e-c342bdfb-1fc5-4efc-9de0-1c498da79c06-task-create-node-js-script-to-extract-cha-4",
+      "source": "chat-c342bdfb-1fc5-4efc-9de0-1c498da79c06",
+      "target": "task-create-node-js-script-to-extract-cha-4",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#0ea5e9"
+      }
+    },
+    {
+      "id": "e-13fecd02-77b4-42b3-862b-8053ca45fdb8-task-create-scripts-ruta-monitoring-brand-5",
+      "source": "chat-13fecd02-77b4-42b3-862b-8053ca45fdb8",
+      "target": "task-create-scripts-ruta-monitoring-brand-5",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#0ea5e9"
+      }
+    },
+    {
+      "id": "e-1831d02f-357f-436f-87ec-ec32c1e92f53-task-fix-language-specific-form-message-i-6",
+      "source": "chat-1831d02f-357f-436f-87ec-ec32c1e92f53",
+      "target": "task-fix-language-specific-form-message-i-6",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#0ea5e9"
+      }
+    },
+    {
+      "id": "e-c3d3f2b6-ba01-47f2-bd57-817ec232df31-task-generate-summary-graphs-alongside-ke-7",
+      "source": "chat-c3d3f2b6-ba01-47f2-bd57-817ec232df31",
+      "target": "task-generate-summary-graphs-alongside-ke-7",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#0ea5e9"
+      }
+    },
+    {
+      "id": "e-c342bdfb-1fc5-4efc-9de0-1c498da79c06-task-implement-api-calls-to-process-chat--8",
+      "source": "chat-c342bdfb-1fc5-4efc-9de0-1c498da79c06",
+      "target": "task-implement-api-calls-to-process-chat--8",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#0ea5e9"
+      }
+    },
+    {
+      "id": "e-13fecd02-77b4-42b3-862b-8053ca45fdb8-task-map-each-brand-domain-to-relevant-ke-9",
+      "source": "chat-13fecd02-77b4-42b3-862b-8053ca45fdb8",
+      "target": "task-map-each-brand-domain-to-relevant-ke-9",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#0ea5e9"
+      }
+    },
+    {
+      "id": "e-13fecd02-77b4-42b3-862b-8053ca45fdb8-task-read-brandai-tab-on-copy-sheet-and-o-10",
+      "source": "chat-13fecd02-77b4-42b3-862b-8053ca45fdb8",
+      "target": "task-read-brandai-tab-on-copy-sheet-and-o-10",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#0ea5e9"
+      }
+    },
+    {
+      "id": "e-54ed7e3a-10c8-4cc7-803c-f094c93a3a2a-task-run-batch-patch-for-all-brands-missi-11",
+      "source": "chat-54ed7e3a-10c8-4cc7-803c-f094c93a3a2a",
+      "target": "task-run-batch-patch-for-all-brands-missi-11",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#0ea5e9"
+      }
+    },
+    {
+      "id": "e-b489a5f7-984b-4ba7-b47b-19b3492001c6-task-update-meta-data-integration-12",
+      "source": "chat-b489a5f7-984b-4ba7-b47b-19b3492001c6",
+      "target": "task-update-meta-data-integration-12",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#0ea5e9"
+      }
+    },
+    {
+      "id": "e-13fecd02-77b4-42b3-862b-8053ca45fdb8-task-update-keyword-metrics-in-brandai-se-13",
+      "source": "chat-13fecd02-77b4-42b3-862b-8053ca45fdb8",
+      "target": "task-update-keyword-metrics-in-brandai-se-13",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#0ea5e9"
+      }
+    },
+    {
+      "id": "e-c3d3f2b6-ba01-47f2-bd57-817ec232df31-task-update-sheet-id-ruta-monitoring-txt--14",
+      "source": "chat-c3d3f2b6-ba01-47f2-bd57-817ec232df31",
+      "target": "task-update-sheet-id-ruta-monitoring-txt--14",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#0ea5e9"
+      }
+    },
+    {
+      "id": "e-13fecd02-77b4-42b3-862b-8053ca45fdb8-task-update-regenerate-lithuanian-insight-15",
+      "source": "chat-13fecd02-77b4-42b3-862b-8053ca45fdb8",
+      "target": "task-update-regenerate-lithuanian-insight-15",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#0ea5e9"
+      }
+    },
+    {
+      "id": "e-c342bdfb-1fc5-4efc-9de0-1c498da79c06-task-document-authentication-and-deployme-0",
+      "source": "chat-c342bdfb-1fc5-4efc-9de0-1c498da79c06",
+      "target": "task-document-authentication-and-deployme-0",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#14b8a6"
+      }
+    },
+    {
+      "id": "e-1831d02f-357f-436f-87ec-ec32c1e92f53-task-improve-product-description-for-sale-1",
+      "source": "chat-1831d02f-357f-436f-87ec-ec32c1e92f53",
+      "target": "task-improve-product-description-for-sale-1",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#14b8a6"
+      }
+    },
+    {
+      "id": "e-1831d02f-357f-436f-87ec-ec32c1e92f53-task-investigate-duplicate-product-issues-2",
+      "source": "chat-1831d02f-357f-436f-87ec-ec32c1e92f53",
+      "target": "task-investigate-duplicate-product-issues-2",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#14b8a6"
+      }
+    },
+    {
+      "id": "e-13fecd02-77b4-42b3-862b-8053ca45fdb8-task-return-lithuanian-summary-3",
+      "source": "chat-13fecd02-77b4-42b3-862b-8053ca45fdb8",
+      "target": "task-return-lithuanian-summary-3",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#14b8a6"
+      }
+    },
+    {
+      "id": "e-13fecd02-77b4-42b3-862b-8053ca45fdb8-task-sheet-url-and-refresh-command-4",
+      "source": "chat-13fecd02-77b4-42b3-862b-8053ca45fdb8",
+      "target": "task-sheet-url-and-refresh-command-4",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#14b8a6"
+      }
+    },
+    {
+      "id": "e-c342bdfb-1fc5-4efc-9de0-1c498da79c06-task-configure-vercel-for-deployment-of-p-0",
+      "source": "chat-c342bdfb-1fc5-4efc-9de0-1c498da79c06",
+      "target": "task-configure-vercel-for-deployment-of-p-0",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#f97316"
+      }
+    },
+    {
+      "id": "e-c342bdfb-1fc5-4efc-9de0-1c498da79c06-task-create-deployment-protection-for-int-1",
+      "source": "chat-c342bdfb-1fc5-4efc-9de0-1c498da79c06",
+      "target": "task-create-deployment-protection-for-int-1",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#f97316"
+      }
+    },
+    {
+      "id": "e-1831d02f-357f-436f-87ec-ec32c1e92f53-task-resolve-cache-issues-on-product-page-2",
+      "source": "chat-1831d02f-357f-436f-87ec-ec32c1e92f53",
+      "target": "task-resolve-cache-issues-on-product-page-2",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#f97316"
+      }
+    },
+    {
+      "id": "e-c342bdfb-1fc5-4efc-9de0-1c498da79c06-task-set-up-basic-auth-middleware-in-verc-3",
+      "source": "chat-c342bdfb-1fc5-4efc-9de0-1c498da79c06",
+      "target": "task-set-up-basic-auth-middleware-in-verc-3",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#f97316"
+      }
+    },
+    {
+      "id": "e-c3d3f2b6-ba01-47f2-bd57-817ec232df31-task-update-oauth-token-for-data-keycommu-4",
+      "source": "chat-c3d3f2b6-ba01-47f2-bd57-817ec232df31",
+      "target": "task-update-oauth-token-for-data-keycommu-4",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#f97316"
+      }
+    },
+    {
+      "id": "e-c342bdfb-1fc5-4efc-9de0-1c498da79c06-task-restructure-public-links-to-differen-0",
+      "source": "chat-c342bdfb-1fc5-4efc-9de0-1c498da79c06",
+      "target": "task-restructure-public-links-to-differen-0",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#64748b"
+      }
+    },
+    {
+      "id": "e-b489a5f7-984b-4ba7-b47b-19b3492001c6-task-add-channel-breakdown-visuals-to-lan-0",
+      "source": "chat-b489a5f7-984b-4ba7-b47b-19b3492001c6",
+      "target": "task-add-channel-breakdown-visuals-to-lan-0",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1"
+      }
+    },
+    {
+      "id": "e-b489a5f7-984b-4ba7-b47b-19b3492001c6-task-adjust-element-spacing-in-4th-canvas-1",
+      "source": "chat-b489a5f7-984b-4ba7-b47b-19b3492001c6",
+      "target": "task-adjust-element-spacing-in-4th-canvas-1",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#6366f1"
+      }
+    },
+    {
+      "id": "e-c342bdfb-1fc5-4efc-9de0-1c498da79c06-task-develop-personalized-react-flow-canv-2",
+      "source": "chat-c342bdfb-1fc5-4efc-9de0-1c498da79c06",
+      "target": "task-develop-personalized-react-flow-canv-2",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#6366f1"
+      }
+    },
+    {
+      "id": "e-13fecd02-77b4-42b3-862b-8053ca45fdb8-task-ensure-column-a-domain-list-for-navi-3",
+      "source": "chat-13fecd02-77b4-42b3-862b-8053ca45fdb8",
+      "target": "task-ensure-column-a-domain-list-for-navi-3",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1"
+      }
+    },
+    {
+      "id": "e-54ed7e3a-10c8-4cc7-803c-f094c93a3a2a-task-fix-layout-if-tekstas-content-appear-4",
+      "source": "chat-54ed7e3a-10c8-4cc7-803c-f094c93a3a2a",
+      "target": "task-fix-layout-if-tekstas-content-appear-4",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1"
+      }
+    },
+    {
+      "id": "e-c342bdfb-1fc5-4efc-9de0-1c498da79c06-task-generate-react-flow-json-formatted-n-5",
+      "source": "chat-c342bdfb-1fc5-4efc-9de0-1c498da79c06",
+      "target": "task-generate-react-flow-json-formatted-n-5",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#6366f1"
+      }
+    },
+    {
+      "id": "e-b489a5f7-984b-4ba7-b47b-19b3492001c6-task-implement-pdf-mindmap-visualization-6",
+      "source": "chat-b489a5f7-984b-4ba7-b47b-19b3492001c6",
+      "target": "task-implement-pdf-mindmap-visualization-6",
+      "type": "smoothstep",
+      "animated": true,
+      "style": {
+        "stroke": "#6366f1"
+      }
+    },
+    {
+      "id": "e-1831d02f-357f-436f-87ec-ec32c1e92f53-task-update-drawing-images-for-products-7",
+      "source": "chat-1831d02f-357f-436f-87ec-ec32c1e92f53",
+      "target": "task-update-drawing-images-for-products-7",
+      "type": "smoothstep",
+      "animated": false,
+      "style": {
+        "stroke": "#6366f1"
+      }
+    }
+  ],
   "meta": {
-    "generatedAt": "2026-05-25T00:00:00.000Z",
-    "note": "Pakeisk po lokalaus eksporto"
+    "generatedAt": "2026-05-25T21:09:39.634Z",
+    "source": "knowledge.db",
+    "taskCount": 35,
+    "chatCount": 6
   }
 }
