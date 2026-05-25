@@ -1,0 +1,36 @@
+{
+  "nodes": [
+    {
+      "id": "cat-setup",
+      "type": "group",
+      "position": { "x": 360, "y": 24 },
+      "data": { "label": "Setup" },
+      "style": {
+        "width": 340,
+        "height": 200,
+        "background": "#64748b14",
+        "border": "1px solid #64748b55",
+        "borderRadius": 12
+      }
+    },
+    {
+      "id": "task-welcome",
+      "type": "cursorTask",
+      "parentId": "cat-setup",
+      "extent": "parent",
+      "position": { "x": 16, "y": 56 },
+      "data": {
+        "label": "Sugeneruok duomenis: npm run all",
+        "category": "Setup",
+        "status": "pending",
+        "evidence": "Žr. SETUP.md — flow-report-prototype/scripts/cursor-chat-to-flow",
+        "sourceChatId": "welcome"
+      }
+    }
+  ],
+  "edges": [],
+  "meta": {
+    "generatedAt": "2026-05-25T00:00:00.000Z",
+    "note": "Pakeisk po lokalaus eksporto"
+  }
+}
